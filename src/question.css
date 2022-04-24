@@ -1,0 +1,22 @@
+.question-box::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+
+  
+  .question-box::-webkit-scrollbar-thumb {
+    background-color: rgba(121, 121, 121, 0.4);    /* color of the scroll thumb */
+      
+  } 
+
+.question-box{
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    border-right: 3px solid #1f65e6;
+    padding: 10px;
+    overflow: scroll;
+
+}

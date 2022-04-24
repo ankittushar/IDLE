@@ -1,0 +1,13 @@
+.progress-bar {
+    height: 20px;
+    &.red {
+      background: palevioletred;
+    }
+    &.green {
+      background: palegreen;
+    }
+    &.blue {
+      background: paleturquoise;
+    }
+  }
+  
